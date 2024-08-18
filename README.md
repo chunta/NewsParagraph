@@ -1,39 +1,18 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(18.0),
+          child: NewsParagraph(
+            text: "GoPro helps the world capture and share itself in immersive and exciting ways. We make the world's most versatile cameras, and sophisticated, yet simple-to-use cross-platform content-management + editing software for iOS, Android, MacOS and Windows. The GoPro Subscription, which currently serves 2.5 million customers, ties together the GoPro experience, providing worry-free camera use, storage of photos and videos, easy to use editing tools, and discounts on GoPro products.",
+            titleLength: 5,
+          ),
+        ),
+      ),
+    ),
+  ));
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+![Alt Text](screenshot00.png)
